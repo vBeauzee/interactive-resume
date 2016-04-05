@@ -1,2 +1,2 @@
 # interactive-resume
-Seirous game : an interactive resume made with superpowers.
+Serious game : an interactive resume made with superpowers.
