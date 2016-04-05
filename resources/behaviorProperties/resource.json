@@ -1,0 +1,29 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "3",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        }
+      ]
+    },
+    "FloorButtonBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "secretActor",
+          "type": "string"
+        }
+      ]
+    }
+  }
+}

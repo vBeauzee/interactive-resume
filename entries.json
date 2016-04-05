@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0",
+    "name": "Scene",
+    "type": "scene"
+  },
+  {
+    "id": "4",
+    "name": "Tile Set",
+    "type": "tileSet"
+  },
+  {
+    "id": "6",
+    "name": "Map",
+    "type": "tileMap"
+  },
+  {
+    "id": "1",
+    "name": "Player",
+    "type": null,
+    "children": [
+      {
+        "id": "2",
+        "name": "Sprite",
+        "type": "sprite"
+      },
+      {
+        "id": "3",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "8",
+        "name": "man idle",
+        "type": "sprite"
+      },
+      {
+        "id": "10",
+        "name": "man walk",
+        "type": "sprite"
+      },
+      {
+        "id": "12",
+        "name": "man ladder",
+        "type": "sprite"
+      },
+      {
+        "id": "13",
+        "name": "woman idle",
+        "type": "sprite"
+      },
+      {
+        "id": "14",
+        "name": "woman walk",
+        "type": "sprite"
+      },
+      {
+        "id": "15",
+        "name": "woman ladder",
+        "type": "sprite"
+      },
+      {
+        "id": "16",
+        "name": "grid players",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "FloorButton",
+    "type": null,
+    "children": [
+      {
+        "id": "11",
+        "name": "FloorButton",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Ladder",
+    "type": null,
+    "children": [
+      {
+        "id": "18",
+        "name": "ladder",
+        "type": "sprite"
+      }
+    ]
+  }
+]
