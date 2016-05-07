@@ -5,6 +5,11 @@
     "type": "scene"
   },
   {
+    "id": "28",
+    "name": "Buttons",
+    "type": "scene"
+  },
+  {
     "id": "4",
     "name": "Tile Set",
     "type": "tileSet"
@@ -13,6 +18,11 @@
     "id": "6",
     "name": "Map",
     "type": "tileMap"
+  },
+  {
+    "id": "26",
+    "name": "GameController",
+    "type": "script"
   },
   {
     "id": "1",
@@ -31,37 +41,42 @@
       },
       {
         "id": "8",
-        "name": "man idle",
-        "type": "sprite"
-      },
-      {
-        "id": "10",
-        "name": "man walk",
-        "type": "sprite"
-      },
-      {
-        "id": "12",
-        "name": "man ladder",
+        "name": "idle-man",
         "type": "sprite"
       },
       {
         "id": "13",
-        "name": "woman idle",
+        "name": "idle-woman",
+        "type": "sprite"
+      },
+      {
+        "id": "10",
+        "name": "walk-man",
         "type": "sprite"
       },
       {
         "id": "14",
-        "name": "woman walk",
+        "name": "walk-woman",
+        "type": "sprite"
+      },
+      {
+        "id": "12",
+        "name": "climb-man",
         "type": "sprite"
       },
       {
         "id": "15",
-        "name": "woman ladder",
+        "name": "climb-woman",
         "type": "sprite"
       },
       {
         "id": "16",
         "name": "grid players",
+        "type": "sprite"
+      },
+      {
+        "id": "19",
+        "name": "grid woman",
         "type": "sprite"
       }
     ]
@@ -87,6 +102,18 @@
         "id": "18",
         "name": "ladder",
         "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Prefabs",
+    "type": null,
+    "children": [
+      {
+        "id": "24",
+        "name": "Player",
+        "type": "scene"
       }
     ]
   }

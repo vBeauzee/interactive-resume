@@ -6,12 +6,12 @@
   "filtering": "pixelated",
   "wrapping": "clampToEdge",
   "pixelsPerUnit": 32,
-  "framesPerSecond": 3,
+  "framesPerSecond": 6,
   "opacity": null,
   "alphaTest": 0.1,
   "frameOrder": "rows",
   "grid": {
-    "width": 65,
+    "width": 66,
     "height": 79
   },
   "origin": {
@@ -21,7 +21,7 @@
   "animations": [
     {
       "id": "0",
-      "name": "ladder",
+      "name": "climb",
       "startFrameIndex": 0,
       "endFrameIndex": 1,
       "speed": 1

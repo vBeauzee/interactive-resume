@@ -2,6 +2,7 @@
   "behaviors": {
     "PlayerBehavior": {
       "scriptId": "3",
+      "line": 10,
       "parentBehavior": null,
       "properties": [
         {
@@ -24,6 +25,12 @@
           "type": "string"
         }
       ]
+    },
+    "GameControllerBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }
